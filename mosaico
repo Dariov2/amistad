@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  
+  for(var y = 27; y <= 488; y = y + 10){
+    
+    for(var x = 10; x <= 488; x= x + 10){
+      fill(0,255,0);
+      ellipse(x,y,5,5);
+    }
+  }
+  
+}
