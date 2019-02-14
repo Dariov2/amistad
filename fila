@@ -1,0 +1,12 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+    
+    for(var x = 8; x <= 388; x= x + 7){
+      ellipse(x,200,8,8);
+    }
+  
+}
